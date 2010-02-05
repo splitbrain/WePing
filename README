@@ -1,0 +1,40 @@
+=== About WePing ===
+
+WePing provides a simple user interface to post status messages to various
+services using the ping.fm API.
+
+What makes it useful is that it allows you to setup multiple users which then
+will all use the same ping.fm account and thus will post to all the services
+configured there - but without knowing either your ping.fm password nor the
+various passwords for your social sites.
+
+For example you could use this to let your marketing department people post
+to your company's twitter and facebook pages without giving them access to
+these accounts.
+
+=== Setting up WePing ===
+
+Just unpack the package on a PHP cabable webserver, copy the config.sample.php
+to config.php and configure your ping.fm APP key and your users
+
+=== Copyright ===
+
+WePing - A multi user ping.fm web client
+Copyright 2010 - Andreas Gohr <andi@splitbrain.org>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+See COPYING for details
+
