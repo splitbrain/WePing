@@ -23,6 +23,15 @@ function countChars(){
     avail -= (lgn.innerHTML.length + 1);
     avail -= ta.value.length;
 
+    // ping.fm shorturls are 21 chars, see if it will shorten and count the shortened url
+    var matches = ta.value.match(/\b((https?):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gi);
+    if(matches) for(var i=0; i<matches.length; i++){
+        if(matches[i].length > 21){
+            // we counted too much, the url will be shortened
+            avail = avail+ (matches[i].length - 21);
+        }
+    }
+
     var out = document.getElementById('chars');
 
     if(avail > 0){
