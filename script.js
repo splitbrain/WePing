@@ -9,7 +9,7 @@ window.onload = function() {
     var h1 = document.getElementById('popup');
     var js = "javascript:void(window.open('"+
              document.URL.replace(/\?.*/,'')+
-            "?popup&p='+document.URL,'weping','width=325,height=300'));";
+            "?popup&p='+encodeURIComponent(document.title+' '+document.URL),'weping','width=325,height=300'));";
 
     h1.innerHTML = '<a href="'+js+'" title="drag to bookmark bar">'+h1.innerHTML+'</a>';
 
