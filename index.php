@@ -31,6 +31,7 @@ header('Content-Type: text/html; charset=UTF-8');
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script language="JavaScript" type="text/javascript" src="script.js"></script>
+    <link rel="shortcut icon" type="image/png" href="weping.png" />
 </head>
 <body>
     <div class="wrap">
