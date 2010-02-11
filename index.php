@@ -4,8 +4,8 @@
  *
  */
 
-require_once('config.php');
 $CONF['api_key'] = '695f8bc472032e929a67520eb6694bd9';
+require_once('config.php');
 error_reporting(E_ALL ^ E_NOTICE);
 
 require_once('HTTPDigest.php');
