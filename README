@@ -17,6 +17,10 @@ these accounts.
 Just unpack the package on a PHP cabable webserver, copy the config.sample.php
 to config.php and configure your ping.fm APP key and your users
 
+If Digest Auth isn't working for you, you need to pass through the needed
+authorization headers to PHP. There is an example .htaccess file with several
+methods to do so included in this package.
+
 === Copyright ===
 
 WePing - A multi user ping.fm web client
